@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+     img { padding: 5px }
+     #classify { margin-left: 5px;margin-right: 5px }
+    </style>
+  </head>
+
+  <body>
+  <div>
+    <button id="classify">Classify!</button><button id="random">Load random image:)</button>
+  </div>
+
+  <div>
+   <img crossOrigin="anonymous" id="image" height="224" width="224" src="https://upload.wikimedia.org/wikipedia/commons/6/60/Doggy.jpg">
+   <span id="results"></span>
+  </div>
+
+  <script src="tf.js"></script>
+  <script src="imagenet_classes.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
