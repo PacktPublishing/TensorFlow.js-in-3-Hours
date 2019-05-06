@@ -1,0 +1,7 @@
+The key ideas for this project comes from https://github.com/crhung/Voice-Emotion-Detector, you can check it out to see how other models perform with detecting emotions in speech.
+
+data/json_features contains converted audio speech samples from:
+Audio_Song_Actors_01-24.zip using ../wav2json.py script, you can download it here:
+https://zenodo.org/record/1188976/files/Audio_Song_Actors_01-24.zip?download=1
+And here's more about the dataset:
+https://zenodo.org/record/1188976/?f=3#.XBz3aC3MxhE
